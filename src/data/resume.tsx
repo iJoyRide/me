@@ -12,7 +12,7 @@ export const DATA = {
   // summary:
   //   "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   summary:
-    "As a Software Engineering, I developed a [full-stack web application using .NET, JavaScript, and PostgreSQL](/#education) that streamlined examination processes by reducing grading time by 90%. I also enhanced pose-estimation models for detecting abandoned objects, improving efficiency by 300% and accuracy by 40%. My experience extends to creating dynamic platforms and participating in hackathons, demonstrating my ability to innovate under pressure. My technical skills and proven track record in delivering efficient, impactful software solutions make me a valuable asset in any software engineering role.",
+    "As a Software Engineering, I developed a [full-stack web application using .NET, JavaScript, and PostgreSQL](/#work) that streamlined examination processes by reducing grading time by 90%. I also enhanced pose-estimation models for detecting abandoned objects, improving efficiency by 300% and accuracy by 40%. My experience extends to creating dynamic platforms and participating in hackathons, demonstrating my ability to innovate under pressure. My technical skills and proven track record in delivering efficient, impactful software solutions make me a valuable asset in any software engineering role.",
   avatarUrl: "/me.jpg",
   skills: [
     "Java",
@@ -144,32 +144,29 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "E-commerce",
+      href: "https://ecommerce-phi-six-62.vercel.app/",
+      dates: "Feb 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a robust platform with product catalogues, shopping cart functionality, and user authentication.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
         "Prisma",
         "TailwindCSS",
         "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
+          type: "GitHub",
+          href: "https://github.com/iJoyRide/ecommerce",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/ecom.png",
+      video: "",
+        // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     // {
     //   title: "Magic UI",
@@ -276,18 +273,7 @@ export const DATA = {
       image:
         "/ah.jpg",
       win: "1st Place Winner",
-      // links: [
-      //   {
-      //     title: "Article",
-      //     icon: <Icons.globe className="h-4 w-4" />,
-      //     href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-      //   },
-      //   {
-      //     title: "Source",
-      //     icon: <Icons.github className="h-4 w-4" />,
-      //     href: "https://github.com/TinySamosas/",
-      //   },
-      // ],
+      links: [],
     },
     {
       title: "HackOMania 2024 - Singapore",
@@ -298,6 +284,7 @@ export const DATA = {
       image:
         "/hacko.png",
       win: "1st Place Winner",
+      links: []
     },
   ],
 } as const;
