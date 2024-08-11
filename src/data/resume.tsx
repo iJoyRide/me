@@ -99,19 +99,7 @@ export const DATA = {
       logoUrl: "/cy.jpg",
       start: "Mar 2024",
       end: "Jul 2024",
-      description:(
-        <>
-          Developed a full-stack web application using .NET, JavaScript, and PostgreSQL for an institutional examination portal.
-          This platform includes a teacher dashboard for setting questions, assigning exams, and monitoring student performance.
-          <br />
-          <br />
-          Developed a REST API using FastAPI to manage and store image file paths for efficient post-processing and grading with
-          the YOLOv8 object detection model, serving a cohort of approximately 200 students.
-          <br />
-          <br />
-          Migrated company’s portal to ReactJS and Typescript for front end development and .NET8 and C# for backend development.
-        </>
-      ),
+      description:"Developed a full-stack web application using .NET, JavaScript, and PostgreSQL for an institutional examination portal.This platform includes a teacher dashboard for setting questions, assigning exams, and monitoring student performance.Developed a REST API using FastAPI to manage and store image file paths for efficient post-processing and grading with the YOLOv8 object detection model, serving a cohort of approximately 200 students.",
     },
     {
       company: "Cynapse AI",
@@ -122,12 +110,7 @@ export const DATA = {
       logoUrl: "/cy.jpg",
       start: "Aug 2023",
       end: "Mar 2024",
-      description:(
-        <>
-          Trained and deployed the YOLOv8 pose-estimation model in Docker, improving training efficiency by 300% and accuracy by 40%. 
-          Successfully detected abandoned or suspicious objects in shopping malls and public transport.
-        </>
-      ),
+      description:"Trained and deployed the YOLOv8 pose-estimation model in Docker, improving training efficiency by 300% and accuracy by 40%. Successfully detected abandoned or suspicious objects in shopping malls and public transport.",
     },
     {
       company: "TUV SUD",
@@ -138,11 +121,7 @@ export const DATA = {
       logoUrl: "/ts.png",
       start: "Jun 2022",
       end: "Nov 2022",
-      description:(
-        <>
-          Trained YOLOv5 object detection model to detect defects on commercial building facades using a DJI M600 drone while masking all sensitive objects during inspection.
-        </>
-      ),
+      description:"Trained YOLOv5 object detection model to detect defects on commercial building facades using a DJI M600 drone while masking all sensitive objects during inspection.",
     },
   ],
   education: [
@@ -164,34 +143,34 @@ export const DATA = {
     },
   ],
   projects: [
-    // {
-    //   title: "Chat Collect",
-    //   href: "https://chatcollect.com",
-    //   dates: "Jan 2024 - Feb 2024",
-    //   active: true,
-    //   description:
-    //     "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://chatcollect.com",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    // },
+    {
+      title: "Chat Collect",
+      href: "https://chatcollect.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
     // {
     //   title: "Magic UI",
     //   href: "https://magicui.design",
