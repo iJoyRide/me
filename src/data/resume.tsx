@@ -145,7 +145,7 @@ export const DATA = {
   projects: [
     {
       title: "Smart Camera Trap",
-      href: "https://uniswap-rust.vercel.app/",
+      href: "https://docs.google.com/document/d/1UBY6HJ1y0EhNJwXxYn-W5j6YNfHycWxHrLZohvU51nM/edit#heading=h.8bqnk2oytbyg",
       dates: "May 2024 - Aug 2024",
       active: true,
       description:
@@ -214,7 +214,7 @@ export const DATA = {
     },
     {
       title: "Will You Be My Valentines?",
-      href: "https://uniswap-rust.vercel.app/",
+      href: "https://valentine-tau-blush.vercel.app/",
       dates: "Jan 2024 - Jan 2024",
       active: true,
       description:
