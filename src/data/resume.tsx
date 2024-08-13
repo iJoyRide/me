@@ -144,14 +144,59 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "E-commerce",
+      title: "Smart Camera Trap",
+      href: "https://uniswap-rust.vercel.app/",
+      dates: "May 2024 - Aug 2024",
+      active: true,
+      description:
+        "The Smart Camera Trap aims to revolutionize wildlife monitoring by integrating Internet of Things (IoT) technologies, edge computing, computer vision and cloud computing.",
+      technologies: [
+        "Python",
+        "YOLOv8",
+        "RaspberryPi 5",
+        "Google Drive API",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/iJoyRide/fyp",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/fyp.mp4",
+    },
+    {
+      title: "Crypto Swap",
+      href: "https://uniswap-rust.vercel.app/",
+      dates: "Mar 2024 - Mar 2024",
+      active: true,
+      description:
+        "Interactive front-end interface for a cryptocurrency exchange application.",
+      technologies: [
+        "ViteJs",
+        "Reactjs",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/iJoyRide/uniswap",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/swap.mp4",
+    },
+    {
+      title: "E-Commerce",
       href: "https://ecommerce-phi-six-62.vercel.app/",
       dates: "Feb 2024 - Feb 2024",
       active: true,
       description:
-        "Developed a robust platform with product catalogues, shopping cart functionality, and user authentication.",
+        "Robust platform with product catalogues, shopping cart functionality, and user authentication.",
       technologies: [
-        "Next.js",
+        "Next",
         "Typescript",
         "Prisma",
         "TailwindCSS",
@@ -167,100 +212,29 @@ export const DATA = {
       image: "",
       video: "/videos/ecom.mp4",
     },
-    // {
-    //   title: "Magic UI",
-    //   href: "https://magicui.design",
-    //   dates: "June 2023 - Present",
-    //   active: true,
-    //   description:
-    //     "Designed, developed and sold animated UI components for developers.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://magicui.design",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/magicuidesign/magicui",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
-    // {
-    //   title: "llm.report",
-    //   href: "https://llm.report",
-    //   dates: "April 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://llm.report",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/dillionverma/llm.report",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.llm.report/openai-demo.mp4",
-    // },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    {
+      title: "Will You Be My Valentines?",
+      href: "https://uniswap-rust.vercel.app/",
+      dates: "Jan 2024 - Jan 2024",
+      active: true,
+      description:
+        "Engaging Valentine's Day application in Next.js for the front end with Go and Gin for the backend to seamlessly automate email via SMTP, sending personalized messages to users.",
+      technologies: [
+        "NextJS",
+        "Go",
+        "Gin",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/iJoyRide/valentine",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/val.mp4",
+    },
+    
   ],
   hackathons: [
     {
