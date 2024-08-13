@@ -23,3 +23,5 @@
    ```
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
+
+https://magic-drab.vercel.app/
