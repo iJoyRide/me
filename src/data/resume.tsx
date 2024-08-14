@@ -36,7 +36,6 @@ export const DATA = {
     "Gin",
     "Material-UI",
     "Docker",
-    "Kubernetes",
     "Git",
     "AWS",
     "GCP",
