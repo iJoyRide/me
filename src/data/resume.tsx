@@ -126,7 +126,8 @@ export const DATA = {
   education: [
     {
       school: "Singapore Institute of Technology",
-      href: "https://www.singaporetech.edu.sg/",
+      href: "",
+      // href: "https://www.singaporetech.edu.sg/",
       degree: "BEng with Honours in Aerospace Engineering",
       logoUrl: "/sit.png",
       start: "2021",
@@ -134,7 +135,8 @@ export const DATA = {
     },
     {
       school: "Singapore Polytechnic",
-      href: "https://www.sp.edu.sg/",
+      href: "",
+      // href: "https://www.sp.edu.sg/",
       degree: "Diploma in Electrical Electronic Engineering",
       logoUrl: "/sp.jpg",
       start: "2016",
@@ -237,8 +239,8 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "AngelHack 2024 - Singapore",
-      dates: "June 25th - 26th, 2024",
+      title: "AngelHack Singapore 2024",
+      dates: "Jun 25th - Jun 26th, 2024",
       location: "Singapore",
       description:
         "Crafted a concept to encourage DBS users to actively plan for retirement, offering them the option to use either a straightforward form or an AI-powered chatbot for detailed planning. Our app is aimed towards individuals gearing up for retirement, especially targeting a younger demographic keen on planning early.",
@@ -248,13 +250,24 @@ export const DATA = {
       links: [],
     },
     {
-      title: "HackOMania 2024 - Singapore",
-      dates: "July 6th - 7th, 2024",
+      title: "HackOMania 2024",
+      dates: "Jul 6th - Jul 7th, 2024",
       location: "Singapore",
       description:
         "Developed a web scraping extension powered by big data to shield online users from malicious websites.",
       image:
         "/hacko.png",
+      win: "1st Place Winner",
+      links: []
+    },
+    {
+      title: "National AI Student Challenge 2024 (AWS)",
+      dates: "Jan 15th - Mar 20th, 2024",
+      location: "Singapore",
+      description:
+        "Fine-tuned Llama 2 language model with 90% accuracy with Amazon Sagemaker and AI Singapore.",
+      image:
+        "/awslol.png",
       win: "1st Place Winner",
       links: []
     },
