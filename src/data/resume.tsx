@@ -150,11 +150,13 @@ export const DATA = {
       dates: "May 2024 - Aug 2024",
       active: true,
       description:
-        "The Smart Camera Trap aims to revolutionize wildlife monitoring by integrating Internet of Things (IoT) technologies, edge computing, computer vision and cloud computing.",
+        "The Smart Camera Trap revolutionizes wildlife monitoring by using IoT, edge computing, computer vision, and cloud computing. It captures images only when animals are detected, processes them locally to save only relevant data, and uploads these images to the cloud at scheduled intervals.",
       technologies: [
         "Python",
         "YOLOv8",
         "RaspberryPi 5",
+        "CronJob",
+        "Shellscript",
         "Google Drive API",
       ],
       links: [
@@ -166,6 +168,35 @@ export const DATA = {
       ],
       image: "",
       video: "/videos/fyp.mp4",
+    },
+    {
+      title: "Cy-Education Portal",
+      href: "https://docs.google.com/document/d/1UBY6HJ1y0EhNJwXxYn-W5j6YNfHycWxHrLZohvU51nM/edit#heading=h.8bqnk2oytbyg",
+      dates: "Mar 2024 - Jul 2024",
+      active: true,
+      description:
+        "Developed an examination portal for a local institution in Singapore. The platform features a dashboard for teachers to monitor student progress. Students can take practical exams where they move objects, capture images, and run object detection algorithms. The grading process is fully automated to minimize teachers' workload.",
+      technologies: [
+        ".Net",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PostgreSQL",
+        "FastAPI",
+        "Python",
+        "Docker",
+        "GCP",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://cyeducation.cynapse.ai/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/ite.mp4",
     },
     {
       title: "Crypto Swap",
