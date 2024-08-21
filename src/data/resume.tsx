@@ -12,7 +12,7 @@ export const DATA = {
   // summary:
   //   "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   summary:
-    "As a software engineer, I specialise in developing high-impact solutions that boost efficiency and drive innovation. During my internship, I created a [full-stack web application using .NET, JavaScript, and PostgreSQL, which streamlined examination workflows and cut grading time by 90%.](#work) On top of web development, I also gained first-hand experience with  [optimized pose-estimation models for detecting abandoned objects, leading to a 300% increase in efficiency and a 40% improvement in accuracy.](#work) My experience extends to building dynamic platforms and leading engineering projects, including enhancing products like the [camera trap with computer vision and cloud computing.](#work) With a strong technical background and a commitment to delivering measurable results, I am dedicated to developing solutions that make a real difference.",
+    "As a software engineer, I specialise in developing high-impact solutions that boost efficiency and drive innovation. During my internship, I created a [full-stack web application using .NET, JavaScript, and PostgreSQL, which streamlined examination workflows and cut grading time by 90%.](#work) On top of web development, I also gained first-hand experience with  [optimized pose-estimation models for detecting abandoned objects, leading to a 300% increase in efficiency and a 40% improvement in accuracy.](#work) My experience extends to building dynamic platforms and leading engineering projects, including enhancing products like the [camera trap with computer vision and cloud computing to eliminate false positives while ensuring data back up.](#work) With a strong technical background and a commitment to delivering measurable results, I am dedicated to developing solutions that make a real difference.",
   avatarUrl: "/me.jpg",
   skills: [
     "Java",
@@ -24,10 +24,10 @@ export const DATA = {
     "HTML",
     "CSS",
     "Go",
-    "PostgreSQL",
-    "MongoDB",
     "React",
     "Next.js",
+    "PostgreSQL",
+    "MongoDB",
     "Node.js",
     "Spring",
     ".Net",
