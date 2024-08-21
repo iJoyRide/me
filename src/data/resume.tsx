@@ -130,8 +130,8 @@ export const DATA = {
       // href: "https://www.singaporetech.edu.sg/",
       degree: "BEng with Honours in Aerospace Engineering",
       logoUrl: "/sit.png",
-      start: "2021",
-      end: "2024",
+      start: "Sep 2021",
+      end: "Sep 2024",
     },
     {
       school: "Singapore Polytechnic",
@@ -139,8 +139,8 @@ export const DATA = {
       // href: "https://www.sp.edu.sg/",
       degree: "Diploma in Electrical Electronic Engineering",
       logoUrl: "/sp.jpg",
-      start: "2016",
-      end: "2019",
+      start: "May 2016",
+      end: "May 2019",
     },
   ],
   projects: [
