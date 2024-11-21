@@ -97,7 +97,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Technical Associate, Artificial Intelligence",
-      logoUrl: "/ctc/jpg",
+      logoUrl: "/ctc.jpg",
       start: "Nov 2024",
       end: "-",
       description: "Training and developing company chatbot using Llama 3",
