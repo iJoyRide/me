@@ -90,6 +90,17 @@ export const DATA = {
 
   work: [
     {
+      company: "CTC Global Pte Ltd",
+      href: "https://www.ctc-g.com.sg",
+      badges: [],
+      location: "Remote",
+      title: "Technical Associate, Artificial Intelligence",
+      logoUrl: "",
+      start: "Nov 2024",
+      end: "",
+      description:"",
+    },
+    {
       company: "Cynapse AI",
       href: "https://www.cynapse.ai/",
       badges: [],
