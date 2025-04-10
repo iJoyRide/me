@@ -12,7 +12,7 @@ export const DATA = {
   // summary:
   //   "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   summary:
-    "As a software engineer, I specialise in developing high-impact solutions that boost efficiency and drive innovation. During my internship, I created a [full-stack web application using .NET, JavaScript, FastAPI and PostgreSQL, which streamlined examination workflows and cut grading time by 90%.](#work) On top of web development, I also gained first-hand experience with  [optimized pose-estimation models for detecting abandoned objects, leading to a 300% increase in efficiency and a 40% improvement in accuracy.](#work) My experience extends to building dynamic platforms and leading engineering projects, including enhancing products like the [Smart Camera Trap, designed with Raspberry Pi 5 and YOLO to process and capture images of only animals locally. The images are scheduled with CronJob to execute shellscript to upload to Google Drive for data back up.](#work) With a strong technical background and a commitment to delivering measurable results, I am dedicated to developing solutions that make a real difference.",
+    "I'm an aspiring AI/Software Engineer with 1 year of hands-on experience in full-stack development and machine learning. I love building intelligent, scalable systems — from building microservices to deploying AI models — using tools like [FastAPI, Next.js, MongoDB, PostgreSQL, SurrealDB, and Docker](). I’ve worked in agile SCRUM teams, delivering [end-to-end MVPs]() for both internal platforms and external-facing solutions. Recently, I built an AI-powered job portal that automates CV grading to help HR teams streamline the hiring process. I’m passionate about solving real-world problems through AI and always exploring new ways to apply it in practical, impactful ways.",
   avatarUrl: "/me.jpg",
   skills: [
     "Java",
@@ -30,6 +30,7 @@ export const DATA = {
     "PostgreSQL",
     "Pocketbase",
     "MongoDB",
+    "SurrealDB",
     "Spring",
     ".Net",
     "Django",
@@ -99,8 +100,8 @@ export const DATA = {
       title: "Technical Associate, Artificial Intelligence",
       logoUrl: "/ctc.jpg",
       start: "Nov 2024",
-      end: "-",
-      description: "Training and developing company chatbot using Llama 3",
+      end: "",
+      description: "Built a high-performance job portal using FastAPI, Next.js, MongoDB, SurrealDB, and the scikit-learn library, integrating Ollama for CV grading which improved hiring assessment quality by 50% and reduced time-to-hire by 30%.",
     },
     {
       company: "Cynapse AI",
@@ -157,6 +158,32 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "AI Job Portal",
+      href: "",
+      dates: "Dec 2024 - Feb 2025",
+      active: true,
+      description:
+        "The AI job portal is a high-performance platform built with Docker, FastAPI, Next.js, MongoDB, SurrealDB, and the scikit-learn library, designed to streamline the hiring process by automating CV grading and equipping HR teams with intelligent tools for faster and more effective candidate evaluation.",
+      technologies: [
+        "Docker",
+        "FastAPI",
+        "NextJS",
+        "Ollama 3.2",
+        "MongoDB",
+        "SurrealDB",
+        "Scikit-learn",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/iJoyRide/jdportal",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/videos/cv.mp4",
+    },
     {
       title: "Smart Camera Trap",
       href: "https://docs.google.com/document/d/1UBY6HJ1y0EhNJwXxYn-W5j6YNfHycWxHrLZohvU51nM/edit#heading=h.8bqnk2oytbyg",
